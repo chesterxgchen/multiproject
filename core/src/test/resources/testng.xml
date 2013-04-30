@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+<suite name="core" >
+
+<!--
+    <listeners>
+        <listener class-name="com.xiaoguangchen.testngex.ConsoleReporter" />
+    </listeners>
+-->
+
+    <test name="core-test" >
+
+        <groups>
+            <run>
+                <!--<include name="image1"/>-->
+            </run>
+        </groups>
+
+        <packages>
+            <package name="com.xiaoguangchen.platform.core.*" />
+            <package name="com.xiaoguangchen.platform.core.sample.*" />
+        </packages>
+
+
+        <classes>
+
+        </classes>
+
+    </test>
+
+</suite>
