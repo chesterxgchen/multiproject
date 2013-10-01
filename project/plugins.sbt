@@ -9,8 +9,4 @@ libraryDependencies ++= Seq(
   "com.github.siasia" %% "xsbt-web-plugin" % "0.12.0-0.2.11.1"
 )
 
-resolvers += Classpaths.typesafeResolver
-
-resolvers += "scct-github-repository" at "http://mtkopone.github.com/scct/maven-repo"
-
-addSbtPlugin("reaktor" % "sbt-scct" % "0.2-SNAPSHOT")
+addSbtPlugin("com.github.scct" % "sbt-scct" % "0.2")
